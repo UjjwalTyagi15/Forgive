@@ -1,16 +1,15 @@
 {
   "name": "will-you-be-my-valentine",
-  "homepage": "https://saurabhnemade.github.io/will-you-be-my-valentine",
+  "homepage": "https://ujjwaltyagi15.github.io/Forgive",
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "deploy": "vite build && gh-pages -d dist",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
+  "scripts":{
+  "dev": "vite",
+  "build": "vite build",
+  "deploy": "npm run build && gh-pages -d dist",
+  "preview": "vite preview"
+},
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
